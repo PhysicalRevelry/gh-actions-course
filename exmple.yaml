@@ -1,0 +1,20 @@
+name: My Workflow
+# string, boolean, integer, float, null
+config:
+  path: first-directory/file.txt
+  environment: staging
+# these objects are called a "dictionary" in yaml
+
+colors:
+  - red
+  - green
+  - blue
+# we can mix types in lists, arrays shown with dashes instead of brackets
+
+other_colors:
+  - name: red
+    hex: "#FF0000"
+  - name: green
+    hex: "#00FF00"
+# lists can have dictionaries inside them, they can get complex through nesting
+# Notice that the indentation is important in YAML, sets the hierarchy
