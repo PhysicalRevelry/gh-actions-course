@@ -2,13 +2,13 @@ name: 01 - Building BLocks
 on: [workflow_dispatch]
 
 jobs:
-  first-job:
+  echo-hello:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
         run: echo "Hello, world!"
 
-  second-job:
+  echo-goodbye:
     runs-on: ubuntu-latest
     steps:
       - name: Failed step
