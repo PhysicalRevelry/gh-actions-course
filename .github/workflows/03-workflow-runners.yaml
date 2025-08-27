@@ -17,4 +17,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Show OS
-        run: echo "Hello from ${{ github.runner_os }}!"
+        run: echo "Hello from $RUNNER_OS!"
