@@ -1,5 +1,7 @@
 name: 02 - workflow event
-on: [push, pull_request, workflow_dispatch]
+on:
+  schedule:
+    - cron: '10 * * * *'  # At minute 10 past every hour
 
 jobs:
   echo:
