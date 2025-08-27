@@ -1,0 +1,20 @@
+name: 03 -
+on: push
+
+jobs:
+  ubuntu-echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show OS
+        run: echo "Hello from Ubuntu!"
+  windows-echo:
+    runs-on: windows-latest
+    steps:
+      - name: Show OS
+        run: echo "Hello from Windows!"
+
+  macos-echo:
+    runs-on: macos-latest
+    steps:
+      - name: Show OS
+        run: echo "Hello from ${{ github.runner_os }}!"
