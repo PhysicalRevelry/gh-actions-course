@@ -1,4 +1,4 @@
-name: 04 0 - Using Actions
+name: 04 - Using Actions
 on: push
 
 jobs:
@@ -15,6 +15,6 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: 04-using-actions/react-app # more clear than using cd 04-using....
+        working-directory: 04-using-actions/my-app # more clear than using cd 04-using....
 # 1. Install dependencies
 # 2. Execute automated tests
